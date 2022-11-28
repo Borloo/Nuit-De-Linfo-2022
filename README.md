@@ -108,9 +108,9 @@ GitKraken :
 
 ### Merge develop -> master
 
-ATTENTION : Si jamais vous avez un doutes, demandez moi
+ATTENTION : Si jamais vous avez un doute, demandez moi
 
 Règles : 
-- Avoir bien re-re-regarder son code pour ne pas manquer des fonctions de test ou du code commenté
+- Avoir bien re-re-regardé son code pour ne pas laisser des fonctions de test ou du code commenté
 - Avoir bien testé sur develop que tout marchait avec tout
-- Prendre contact avec le responsable de votre partie, avec qui on validera la merger request
+- Prendre contact avec le responsable de votre partie, avec qui on validera la merge request ensemble
