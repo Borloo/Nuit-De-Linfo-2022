@@ -28,6 +28,30 @@ Ligne de commande :
 
 git checkout develop
 git checkout -b feature/name_feature
-git 
 
 ```
+
+### Commit and push 
+
+Règles :
+
+Pour une feature :
+
+- Seul : Commit and push autant que tu veux
+- Plusieurs : Préférer le push lorsque le résultat est satisfaisant et intéressant que les autres l'ai, commit à foison
+
+Ligne de commande : 
+
+```bash
+
+git add .
+git commit -m "message"
+git push feature/feature-name
+
+```
+
+GitKraken :
+
+<img src="./images/readme/commit.png">
+
+<img src="">
