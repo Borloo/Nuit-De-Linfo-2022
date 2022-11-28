@@ -71,5 +71,6 @@ git add .
 git commit -m "message"
 git checkout develop
 git merge 
+git push
 
 ```
