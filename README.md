@@ -86,3 +86,8 @@ git push
 
 GitKraken :
 
+<img src="./images/readme/checkout_develop.png">
+
+<img src="./images/readme/merge.png">
+
+<img src="./images/readme/push_merge.png">
