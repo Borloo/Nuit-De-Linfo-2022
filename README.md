@@ -54,4 +54,18 @@ GitKraken :
 
 <img src="./images/readme/commit.png">
 
-<img src="">
+<img src="./images/readme/push.png">
+
+### Merge Request feature -> develop
+
+Règles : 
+
+Avant de faire le merge entre sa feature et develop, inspecter le code et supprimer tout test local (print, dump)
+
+Ligne de comlande :
+
+```bash
+
+
+
+```
