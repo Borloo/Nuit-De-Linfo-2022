@@ -2,7 +2,15 @@
 
 ## Ca Marche Même Plus En Local
 
-### Récupération du projet en local
+1. [Récupération du projet](#1)
+2. [Branche feature](#2)
+3. [Commit & Push](#3)
+4. [Merge feature -> develop](#4)
+5. [Merge develop -> master](#5)
+
+<a name="1"></a>
+
+###  Récupération du projet en local 
 
 Ligne de commande : 
 
@@ -18,13 +26,13 @@ GitKraken :
 
 <img src="./images/readme/clone_repo_url.png" alt="">
 
-### Créer une nouvelle branche feature
+<a name="2"></a>
+
+### Créer une nouvelle branche feature 
 
 Règles : 
 
 TOUJOURS mettre à jour localement la branche develop avant de créer la branche
-
-- Pour dev :
 
 Ligne de commande : 
 
@@ -39,6 +47,8 @@ git checkout -b feature/name_feature
 GitKraken : 
 
 <img src="./images/readme/create_branche.png">
+
+<a name="3"></a>
 
 ### Commit and push 
 
@@ -65,7 +75,9 @@ GitKraken :
 
 <img src="./images/readme/push.png">
 
-### Merge Request feature -> develop
+<a name="4"></a>
+
+### Merge feature -> develop
 
 Règles : 
 
@@ -91,3 +103,14 @@ GitKraken :
 <img src="./images/readme/merge.png">
 
 <img src="./images/readme/push_merge.png">
+
+<a name="5"></a>
+
+### Merge develop -> master
+
+ATTENTION : Si jamais vous avez un doutes, demandez moi
+
+Règles : 
+- Avoir bien re-re-regarder son code pour ne pas manquer des fonctions de test ou du code commenté
+- Avoir bien testé sur develop que tout marchait avec tout
+- Prendre contact avec le responsable de votre partie, avec qui on validera la merger request
