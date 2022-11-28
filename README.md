@@ -18,7 +18,11 @@ GitKraken :
 
 <img src="./images/readme/clone_repo_url.png" alt="">
 
-### Créer une nouvelle branche
+### Créer une nouvelle branche feature
+
+Règles : 
+
+TOUJOURS mettre à jour localement la branche develop avant de créer la branche
 
 - Pour dev :
 
@@ -27,9 +31,14 @@ Ligne de commande :
 ```bash
 
 git checkout develop
+git pull
 git checkout -b feature/name_feature
 
 ```
+
+GitKraken : 
+
+<img src="./images/readme/create_branche.png">
 
 ### Commit and push 
 
@@ -74,3 +83,6 @@ git merge
 git push
 
 ```
+
+GitKraken :
+
