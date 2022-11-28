@@ -66,6 +66,10 @@ Ligne de comlande :
 
 ```bash
 
-
+git checkout -b branche-name
+git add .
+git commit -m "message"
+git checkout develop
+git merge 
 
 ```
