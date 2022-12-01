@@ -5,7 +5,12 @@ const routes: Routes = [
   {
     path: '',
     loadChildren: () => import('./base/home-page/home-page.module').then(m => m.HomePageModule)
-  }
+  },
+  {
+    path: 'donateurs',
+    loadChildren: () => import('./base/donateurs/donateurs.module').then(m => m.DonateursModule)
+  },
+  
 ];
 
 @NgModule({
