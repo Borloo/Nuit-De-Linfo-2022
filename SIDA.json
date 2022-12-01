@@ -164,5 +164,49 @@
                 "tauxApp" : 0.05,
                 "isMechant" : 1
             }
+    },
+    "Powerup": {
+        "TraitementAntiretroviral" : {
+            "libelle" : "TraitementAntiretroviral",
+            "idE" : "?"
+        },
+        "Preservatifs" : {
+            "libelle" : "Preservatifs",
+            "idE" : "?"
+        },
+        "Depistage" : {
+            "libelle" : "Depistage",
+            "idE" : "?"
+        },
+        "TraitementPostExposition" : {
+            "libelle" : "TraitementPostExposition",
+            "idE" : "?"
+        },
+        "PrEP" : {
+            "libelle" : "PrEP",
+            "idE" : "?"
+        },
+        "TasP" : {
+            "libelle" : "TasP",
+            "idE" : "?"
+        },
+        "Vaccin" : {
+            "libelle" : "Vaccin",
+            "idE" : "?"
         }
+    },
+    "Score" : {
+        "test1" : {
+            "pseudo" : "Borloo1",
+            "valeur" : 100
+        },
+        "test2" : {
+            "pseudo" : "Borloo2",
+            "valeur" : 200
+        },
+        "test3" : {
+            "pseudo" : "Borloo3",
+            "valeur" : 300
+        }
+    } 
 }
