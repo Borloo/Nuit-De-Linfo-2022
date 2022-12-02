@@ -13,6 +13,10 @@ const routes: Routes = [
   {
     path: 'donateurs',
     loadChildren: () => import('./base/donateurs/donateurs.module').then(m => m.DonateursModule)
+  },
+  {
+    path: 'liens-utiles',
+    loadChildren: () => import('./base/liens-utiles/liens-utiles.module').then(m => m.LiensUtilesModule)
   }
 
 ];
