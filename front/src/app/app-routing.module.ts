@@ -21,6 +21,10 @@ const routes: Routes = [
   {
     path: 'barreAchat',
     loadChildren: () => import('./base/Jeu/barre-achat/barre-achat.module').then(m => m.BarreAchatModule)
+  },
+  {
+    path: 'barreAction',
+    loadChildren: () => import('./base/Jeu/barre-action/barre-action.module').then(m => m.BarreActionModule)
   }
 
 ];
