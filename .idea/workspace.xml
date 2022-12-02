@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d080452-ca4b-4c5b-8e1c-20e7dc5714c6" name="Changes" comment="init readme">
-      <change beforePath="$PROJECT_DIR$/front/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/base/Jeu/carre/carre.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/base/Jeu/carre/carre.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/base/Jeu/carre/carre.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/base/Jeu/carre/carre.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/base/Jeu/carre/carre.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/base/Jeu/carre/carre.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/base/Jeu/carre/carre.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/base/Jeu/carre/carre.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

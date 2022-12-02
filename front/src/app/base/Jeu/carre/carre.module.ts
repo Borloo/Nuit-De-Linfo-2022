@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { CarreRoutingModule } from './carre-routing.module';
 import { CarreComponent } from './carre.component';
+import {HttpClientModule} from "@angular/common/http";
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { CarreComponent } from './carre.component';
   ],
   imports: [
     CommonModule,
-    CarreRoutingModule
+    CarreRoutingModule,
+    HttpClientModule
   ],
   exports: [
     CarreComponent
