@@ -8,6 +8,7 @@ export const SKYFRIZ = { pseudo: "SkyFriz", sommeDonnee: 12.0 };
 export const AYNBO = { pseudo: "Aynbo", sommeDonnee: 20.76 };
 export const KRAIT = { pseudo: "Krait", sommeDonnee: 20.77 };
 export const THONYY = { pseudo: "Thonyy", sommeDonnee: 22.65 };
+export const DANEVA = { pseudo: "DanEva", sommeDonnee: 10.00 };
 
 export const DONATEURS = [
     BAPTISTEUH,
@@ -19,5 +20,6 @@ export const DONATEURS = [
     SKYFRIZ,
     AYNBO,
     KRAIT,
-    THONYY
+    THONYY,
+    DANEVA
 ]
