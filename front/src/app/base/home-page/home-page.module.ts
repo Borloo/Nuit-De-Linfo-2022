@@ -1,8 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FlexLayoutModule } from "@angular/flex-layout";
 
 import { HomePageRoutingModule } from './home-page-routing.module';
 import { HomePageComponent } from './home-page.component';
+import { RouterModule } from '@angular/router';
 
 
 @NgModule({
@@ -11,7 +13,9 @@ import { HomePageComponent } from './home-page.component';
   ],
   imports: [
     CommonModule,
-    HomePageRoutingModule
+    HomePageRoutingModule,
+    FlexLayoutModule,
+    RouterModule
   ],
   exports: [
     HomePageComponent
