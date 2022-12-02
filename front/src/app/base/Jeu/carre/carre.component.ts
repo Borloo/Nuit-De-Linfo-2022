@@ -23,9 +23,10 @@ export class CarreComponent implements OnInit {
       'Access-Control-Allow-Origin': '*',
       'Access-Control-Allow-Credentials': 'true',
       'Access-Control-Allow-Headers': 'Content-Type',
-      'Access-Control-Allow-Methods': 'GET,PUT,POST,DELETE',
+      'Access-Control-Allow-Methods': 'GET',
     });
     let ist = this.http.get<any>("http://88.208.226.189:8080/api/v1/random", {headers});
+    console.log(ist)
     console.log(ist.subscribe(data => {
       this.libelle = data.libelle
     }));
