@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d080452-ca4b-4c5b-8e1c-20e7dc5714c6" name="Changes" comment="init readme">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/app/base/Jeu/application-jeu/application-jeu.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/base/Jeu/application-jeu/application-jeu.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/app/base/about-us/about-us.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/base/about-us/about-us.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/app/base/book/book.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/base/book/book.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/app/base/donateurs/donateurs.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/base/donateurs/donateurs.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/app/base/liens-utiles/liens-utiles.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/base/liens-utiles/liens-utiles.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/styles.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
