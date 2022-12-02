@@ -1,0 +1,212 @@
+{
+    "Couilles" : {
+        "Poilu" : {
+            "prod": 3,
+            "cout" : 200,
+            "vie" : 500
+        },
+        "MiPoilu" : {
+            "prod": 2,
+            "cout" : 100,
+            "vie" : 500
+        },
+        "Rase" : {
+            "prod": 1,
+            "cout" : 50,
+            "vie" : 500
+        }
+    },
+    "Entite" : {
+            "TraitementAntiretroviral" : {
+                "Libelle" : "TraitementAntiretroviral",
+                "cout" : 10,
+                "degat" : 5,
+                "vitesse" : 5,
+                "vie" : 250,
+                "tauxApp" : null,
+                "isMechant" : null
+            },
+            "Preservatifs" :{
+                "Libelle" : "Preservatifs",
+                "cout" : 1,
+                "degat" : 2,
+                "vitesse" : 2,
+                "vie" : 200,
+                "tauxApp" : null,
+                "isMechant" : null
+            },
+            "Depistage" : {
+                "Libelle" : "Depistage",
+                "cout" : 2,
+                "degat" : 1,
+                "vitesse" : 5,
+                "vie" : 100,
+                "tauxApp" : null,
+                "isMechant" : null
+            },
+            "TraitementPostExposition" :{
+                "Libelle" : "TraitementPostExposition",
+                "cout" : 4,
+                "degat" : 4,
+                "vitesse" : 3,
+                "vie" : 200,
+                "tauxApp" : null,
+                "isMechant" : null
+            },
+            "PrEP" : {
+                "Libelle" : "PrEP (Prophylaxie pré-exposition)",
+                "cout" : 3,
+                "degat" : 2,
+                "vitesse" : 4,
+                "vie" : 200,
+                "tauxApp" : null,
+                "isMechant" : null
+            },
+            "TasP" : {
+                "Libelle" : "TasP (traitement comme prévention)",
+                "cout" : 2,
+                "degat" : 3,
+                "vitesse" : 4,
+                "vie" :200,
+                "tauxApp" : null,
+                "isMechant" : null
+            },
+            "Vaccin" : {
+                "Libelle" : "Vaccin",
+                "cout" : 5,
+                "degat" : 5,
+                "vitesse" : 3,
+                "vie" :200,
+                "tauxApp" : null,
+                "isMechant" : null
+            },
+            
+            
+            "VPH" : {
+                "Libelle" : "Papillomavirus",
+                "cout" : 5,
+                "degat" : 1,
+                "vitesse" : 5,
+                "vie" :200,
+                "tauxApp" : 0.9,
+                "isMechant" : 1
+            },
+            "HerpesGenita" : {
+                "Libelle" : "HerpesGenita",
+                "cout" : 10,
+                "degat" : 1,
+                "vitesse" : 4,
+                "vie" :260,
+                "tauxApp" : 0.85,
+                "isMechant" : 1            
+            },
+            "Morpions" : {
+                "Libelle" : "Morpions",
+                "cout" : 10,
+                "degat" : 2,
+                "vitesse" : 4,
+                "vie" : 320,
+                "tauxApp" : 0.7,
+                "isMechant" : 1
+            },
+            "Gale" :{
+                "Libelle" : "Gale",
+                "cout" : 20,
+                "degat" : 2,
+                "vitesse" :31,
+                "vie" : 500,
+                "tauxApp" : 0.6,
+                "isMechant" : 1
+            },
+            "TrichomonaseVaginalis" : {
+                "Libelle" : "TrichomonaseVaginalis",
+                "cout" : 20,
+                "degat" : 3,
+                "vitesse" : 3,
+                "vie" : 620,
+                "tauxApp" : 0.5,
+                "isMechant" : 1            
+            },
+            "Syphilis" : {
+                "Libelle" : "Syphilis",
+                "cout" : 35,
+                "degat" : 3,
+                "vitesse" : 4,
+                "vie" : 580,
+                "tauxApp" : 0.35,
+                "isMechant" : 1            
+            },
+            "Chlamydiose" : {
+                "Libelle" : "Chlamydiose",
+                "cout" : 35,
+                "degat" : 3,
+                "vitesse" : 2,
+                "vie" : 800,
+                "tauxApp" : 0.2,
+                "isMechant" : 1
+
+            },
+            "HepatiteB" : {
+                "Libelle" : "HepatiteB",
+                "cout" : 50,
+                "degat" : 4,
+                "vitesse" : 2,
+                "vie" : 1000,
+                "tauxApp" : 0.1,
+                "isMechant" : 1            
+            },
+            "VIH" : {
+                "Libelle" : "VIH",
+                "cout" : 50,
+                "degat" : 5,
+                "vitesse" : 1,
+                "vie" : 1500,
+                "tauxApp" : 0.05,
+                "isMechant" : 1
+            }
+    },
+    "Powerup": {
+        "TraitementAntiretroviral" : {
+            "libelle" : "TraitementAntiretroviral",
+            "idE" : "?"
+        },
+        "Preservatifs" : {
+            "libelle" : "Preservatifs",
+            "idE" : "?"
+        },
+        "Depistage" : {
+            "libelle" : "Depistage",
+            "idE" : "?"
+        },
+        "TraitementPostExposition" : {
+            "libelle" : "TraitementPostExposition",
+            "idE" : "?"
+        },
+        "PrEP" : {
+            "libelle" : "PrEP",
+            "idE" : "?"
+        },
+        "TasP" : {
+            "libelle" : "TasP",
+            "idE" : "?"
+        },
+        "Vaccin" : {
+            "libelle" : "Vaccin",
+            "idE" : "?"
+        }
+    },
+    "Score" : {
+        "test1" : {
+            "pseudo" : "Borloo1",
+            "valeur" : 100
+        },
+        "test2" : {
+            "pseudo" : "Borloo2",
+            "valeur" : 200
+        },
+        "test3" : {
+            "pseudo" : "Borloo3",
+            "valeur" : 300
+        }
+    } 
+}

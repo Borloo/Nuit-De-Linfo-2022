@@ -1,0 +1,44 @@
+.cover {
+    width: 100%;
+    height: 100%;
+    background-image: url("../../../assets/images/background_menu.png"); 
+    background-size: 90%; 
+}
+
+.wide {
+    width: 100%;
+}
+
+.title {
+    padding: 5% 0 0 15%;
+}
+
+.options {
+    width: 25%;
+    margin-left: 10em;
+}
+
+.option {
+    height: 15%;
+    background-color: #c91441;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    box-shadow: 5px 5px #a31136;
+
+    &:active {
+        translate: 5px 5px;
+        box-shadow: 0px 0px #a31136;
+    }
+}
+
+.footer {
+    .credits-mentions-legales {
+        background-color: #ed174b;
+        border: none;
+        border-radius: 25px;
+        color: white;
+        margin: 1%;
+        width: 10%;
+    }
+}

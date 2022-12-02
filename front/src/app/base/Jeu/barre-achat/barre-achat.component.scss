@@ -1,0 +1,40 @@
+#score{
+  text-align: right;
+}
+#entity {
+  background: url("../../../../assets/images/texture-bois-background.jpg") 100%;
+  border-radius: 1em;
+  margin: 1%;
+}
+img[name = 'icons']{
+  padding: 5%;
+  position: center;
+  background: url("../../../../assets/images/icon-tour-entity.png") no-repeat center;
+}
+.entity {
+  padding: 1%;
+}
+.row{
+  text-align: center;
+}
+#power-ups {
+  background: url("../../../../assets/images/texture-beige-background.jpg");
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+#score {
+  margin: 1%;
+}
+#textScore {
+  background: url("../../../../assets/images/texture-bois-background.jpg");
+  color: white;
+  padding: 1%;
+  text-align: center;
+  border-radius: 1em;
+}
+
+#container {
+  background: url("../../../../assets/images/texture-ciel-background.png");
+}

@@ -1,0 +1,36 @@
+html, body {
+  height: inherit !important;
+  margin: inherit !important;
+  padding: inherit !important;
+}
+
+
+html {
+    background-image: url("../../../assets/images/background2.png");
+}
+
+#back {
+    padding-top: 20px;
+    width : 15%;
+}
+
+#title {
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.text {
+    color:white;
+    text-decoration: italic;
+    text-align: center;
+    padding: 80px;
+}
+
+#logoNuit {
+    width: 5%;
+}
+
+.cursorhand {
+    cursor: pointer;
+}
