@@ -1,7 +1,33 @@
-<button  routerLink="..">
-    <---
-</button>
-<div>
-    Merci à toutes les personnes qui ont contribué financièrement !
-    <li *ngFor="let donateur of donateurs">{{ donateur.pseudo }}</li>
+
+
+<html>
+<link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+  crossorigin="anonymous"
+/>
+
+<div class="container" id="full">
+    <div class="row">
+        <div class="col-sm">
+    <img class="cursorhand" id="back" routerLink=".." src="../../../assets/images/back.png" alt="retour">
+    </div>
+
+    <div class="col-sm"></div>
+    <div class="col-sm"></div>
+    </div>
+    
+<div id="title">
+    <h1>Donateurs</h1>
+</div>
+
+
+
+<div class="data-container">
+<p id="textLiens">Pour en savoir plus sur le SIS qui a proposé le sujet de cette édition de la nuit de l'info, voici différents liens qui pourront vous aider :</p>
+<ol>
+<li *ngFor="let donateur of donateurs"><a id="donors">{{ donateur.pseudo }}</a></li>
+</ol>
+</div>
 </div>
