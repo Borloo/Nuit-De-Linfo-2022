@@ -25,6 +25,10 @@ const routes: Routes = [
   {
     path: 'barreAction',
     loadChildren: () => import('./base/Jeu/barre-action/barre-action.module').then(m => m.BarreActionModule)
+  },
+  {
+    path: 'jeu',
+    loadChildren: () => import('./base/Jeu/ecrain-jeu/ecrain-jeu.module').then(m => m.EcrainJeuModule)
   }
 
 ];
