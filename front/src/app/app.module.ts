@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CarreComponent } from './base/Jeu/carre/carre.component';
 import { AboutUsComponent } from './base/about-us/about-us.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    CarreComponent
   ],
   imports: [
     BrowserModule,
