@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { PlateauJeuComponent } from './plateau-jeu.component';
+import { CarreModule } from '../carre/carre.module';
 
 
 
@@ -9,7 +10,8 @@ import { PlateauJeuComponent } from './plateau-jeu.component';
     PlateauJeuComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    CarreModule
   ],
   exports: [
     PlateauJeuComponent

@@ -1,0 +1,16 @@
+.carre {
+    width: 95%;
+    height: 95%;
+    background-color: white;
+    margin: 5px;
+    color: black;
+    border-color: black;
+
+    &:hover {
+        background-color: #aaaaaa;
+    }
+
+    &:active {
+        background-color: #555555;
+    }
+}

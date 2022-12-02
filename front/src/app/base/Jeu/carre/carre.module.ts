@@ -12,6 +12,9 @@ import { CarreComponent } from './carre.component';
   imports: [
     CommonModule,
     CarreRoutingModule
+  ],
+  exports: [
+    CarreComponent
   ]
 })
 export class CarreModule { }
