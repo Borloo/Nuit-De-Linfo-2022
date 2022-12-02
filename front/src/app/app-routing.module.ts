@@ -27,16 +27,8 @@ const routes: Routes = [
     loadChildren: () => import('./base/mentions-legales/mentions-legales.module').then(m => m.MentionsLegalesModule)
   },
   {
-    path: 'barreAchat',
-    loadChildren: () => import('./base/Jeu/barre-achat/barre-achat.module').then(m => m.BarreAchatModule)
-  },
-  {
-    path: 'barreAction',
-    loadChildren: () => import('./base/Jeu/barre-action/barre-action.module').then(m => m.BarreActionModule)
-  },
-  {
-    path: 'jeu',
-    loadChildren: () => import('./base/Jeu/ecrain-jeu/ecrain-jeu.module').then(m => m.EcrainJeuModule)
+    path: 'applicationJeu',
+    loadChildren: () => import('./base/Jeu/application-jeu/application-jeu.module').then(m => m.ApplicationJeuModule)
   },
 ];
 

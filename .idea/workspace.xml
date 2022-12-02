@@ -3,8 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="3d080452-ca4b-4c5b-8e1c-20e7dc5714c6" name="Changes" comment="init readme">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/app/base/Jeu/barre-action/barre-action.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/base/Jeu/barre-action/barre-action.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/app/base/Jeu/barre-action/barre-action.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/base/Jeu/barre-action/barre-action.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/base/Jeu/application-jeu/application-jeu.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/base/Jeu/application-jeu/application-jeu.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/base/Jeu/application-jeu/application-jeu.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/base/Jeu/application-jeu/application-jeu.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/base/Jeu/barre-achat/barre-achat.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/base/Jeu/barre-achat/barre-achat.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/base/Jeu/carre/carre.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/base/Jeu/carre/carre.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/base/Jeu/plateau-jeu/plateau-jeu.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/base/Jeu/plateau-jeu/plateau-jeu.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/app/base/Jeu/plateau-jeu/plateau-jeu.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/app/base/Jeu/plateau-jeu/plateau-jeu.component.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

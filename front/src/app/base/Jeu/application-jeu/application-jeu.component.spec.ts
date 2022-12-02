@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { EcrainJeuComponent } from './ecrain-jeu.component';
+import { ApplicationJeuComponent } from './application-jeu.component';
 
-describe('EcrainJeuComponent', () => {
-  let component: EcrainJeuComponent;
-  let fixture: ComponentFixture<EcrainJeuComponent>;
+describe('ApplicationJeuComponent', () => {
+  let component: ApplicationJeuComponent;
+  let fixture: ComponentFixture<ApplicationJeuComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ EcrainJeuComponent ]
+      declarations: [ ApplicationJeuComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(EcrainJeuComponent);
+    fixture = TestBed.createComponent(ApplicationJeuComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
