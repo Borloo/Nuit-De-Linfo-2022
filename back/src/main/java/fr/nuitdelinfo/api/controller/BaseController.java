@@ -30,4 +30,9 @@ public interface BaseController {
     @ResponseStatus(HttpStatus.CREATED)
     @ResponseBody
     Score createScore(@Valid @RequestBody ScoreDto scoreDto);
+
+    @GetMapping("/random")
+    @ResponseStatus(HttpStatus.OK)
+    @ResponseBody
+    Entity getRandomEntity();
 }

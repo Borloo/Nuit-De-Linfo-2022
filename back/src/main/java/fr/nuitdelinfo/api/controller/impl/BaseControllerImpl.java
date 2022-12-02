@@ -38,4 +38,9 @@ public class BaseControllerImpl implements BaseController {
     public Score createScore(ScoreDto scoreDto) {
         return scoreService.createScore(scoreDto);
     }
+
+    @Override
+    public Entity getRandomEntity() {
+        return entityService.getRandomEntity();
+    }
 }
