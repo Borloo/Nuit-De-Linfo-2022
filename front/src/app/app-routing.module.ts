@@ -29,8 +29,7 @@ const routes: Routes = [
   {
     path: 'jeu',
     loadChildren: () => import('./base/Jeu/ecrain-jeu/ecrain-jeu.module').then(m => m.EcrainJeuModule)
-  }
-
+  },
 ];
 
 @NgModule({
