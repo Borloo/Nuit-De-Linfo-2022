@@ -5,5 +5,14 @@
   padding : 1%;
 }
 #entity {
-  border : solid black;
+  background: url("../../../../assets/images/texture-bois-background.jpg") 100%;
+  border-radius: 1em;
+}
+img[name = 'icon-couilles']{
+  padding: 5%;
+  position: center;
+}
+.entity {
+  background: url("../../../../assets/images/icon-tour-entity.png") no-repeat;
+  position: center;
 }
