@@ -1,24 +1,41 @@
 package fr.nuitdelinfo.api.controller.impl;
 
 import fr.nuitdelinfo.api.controller.BaseController;
-import fr.nuitdelinfo.api.exception.BaseException;
-import fr.nuitdelinfo.api.service.BaseService;
+import fr.nuitdelinfo.api.dto.ScoreDto;
+import fr.nuitdelinfo.api.entity.Couille;
+import fr.nuitdelinfo.api.entity.Entity;
+import fr.nuitdelinfo.api.entity.Score;
+import fr.nuitdelinfo.api.service.CouilleService;
+import fr.nuitdelinfo.api.service.EntityService;
+import fr.nuitdelinfo.api.service.ScoreService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequiredArgsConstructor
 public class BaseControllerImpl implements BaseController {
 
-    private final BaseService baseService;
+    private final CouilleService couilleService;
+    private final EntityService entityService;
+    private final ScoreService scoreService;
 
     @Override
-    public String test() {
-        return baseService.getName();
+    public Iterable<Couille> getCouilles() {
+        return couilleService.getCouilles();
     }
 
     @Override
-    public String error() {
-        throw new BaseException("Not implemented route..");
+    public Iterable<Entity> getEntities() {
+        return entityService.getEntities();
+    }
+
+    @Override
+    public Iterable<Score> getScores() {
+        return scoreService.getScores();
+    }
+
+    @Override
+    public Score createScore(ScoreDto scoreDto) {
+        return scoreService.createScore(scoreDto);
     }
 }
