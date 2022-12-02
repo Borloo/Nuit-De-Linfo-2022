@@ -7,7 +7,7 @@ import { AboutUsComponent } from './base/about-us/about-us.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
